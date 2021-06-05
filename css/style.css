@@ -1,0 +1,56 @@
+@import url(owl.carousel.min.css);
+@import url(owl.theme.default.min.css);
+@import url(bootstrap.min.css);
+@import url(bootstrap-theme.min.css);
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+header {
+  background: none; }
+  header .navbar, header .navbar-default {
+    border: none;
+    box-shadow: none;
+    background: none;
+    padding: 20px; }
+    header .navbar .nav li:before, header .navbar .navbar-nav li:before, header .navbar .navbar-right li:before, header .navbar-default .nav li:before, header .navbar-default .navbar-nav li:before, header .navbar-default .navbar-right li:before {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 52%;
+      background-color: #008ed6;
+      height: 2px;
+      width: 1%;
+      visibility: hidden;
+      transition: 0.5s; }
+    header .navbar .nav li:after, header .navbar .navbar-nav li:after, header .navbar .navbar-right li:after, header .navbar-default .nav li:after, header .navbar-default .navbar-nav li:after, header .navbar-default .navbar-right li:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 52%;
+      bottom: 0;
+      background-color: #008ed6;
+      height: 2px;
+      width: 1%;
+      visibility: hidden;
+      transition: 0.5s; }
+    header .navbar .nav li:hover:after, header .navbar .nav li:hover:before, header .navbar .navbar-nav li:hover:after, header .navbar .navbar-nav li:hover:before, header .navbar .navbar-right li:hover:after, header .navbar .navbar-right li:hover:before, header .navbar-default .nav li:hover:after, header .navbar-default .nav li:hover:before, header .navbar-default .navbar-nav li:hover:after, header .navbar-default .navbar-nav li:hover:before, header .navbar-default .navbar-right li:hover:after, header .navbar-default .navbar-right li:hover:before {
+      visibility: visible;
+      width: 20px; }
+    header .navbar .nav li a, header .navbar .navbar-nav li a, header .navbar .navbar-right li a, header .navbar-default .nav li a, header .navbar-default .navbar-nav li a, header .navbar-default .navbar-right li a {
+      color: #fffefe;
+      font-weight: 600;
+      font-size: 16px; }
+
+.banner {
+  background-image: url("../images/banener-top_01.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+/*# sourceMappingURL=style.css.map */
