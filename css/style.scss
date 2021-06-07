@@ -47,8 +47,9 @@
   border: solid 1px #454549;
   font-weight: 700;
   border-radius: 2px;
-  padding: 18px 25px;
-  max-width: 164px;
+  line-height: 30px;
+  width: 100%;
+  display: block;
 }
 
 .btn-success{
@@ -73,8 +74,10 @@
   font-weight: 700;
   background-color: #008ed6;
   border-radius: 2px;
-  padding: 18px 25px;
-  max-width: 164px;
+  line-height: 30px;
+  width: 100%;
+  display: block;
+
 }
 .bg-primary{
   background-color: #15141a;
@@ -260,6 +263,7 @@
 }
 .section-details-top{
     padding:68px 0;
+    position: relative;
   .section-subtitle{
     margin-top: 40px;
   }
@@ -295,7 +299,7 @@
   }
   img{
     display: block;
-
+    width: 100%;
   }
   ul{
     li{
@@ -395,8 +399,8 @@
     display: flex;
     align-items: center;
     position: absolute;
-    bottom: 30%;
-    left: 40%;
+    bottom: -30%;
+    left: 45%;
     .owl-dot{
       span{
         display:block;
@@ -584,5 +588,54 @@
     position: relative;
     margin-bottom: 68px;
   }
+  .numbers:before,.location:before,.email:before{
+    content: "\f3cd";
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color: #018ed2;
+}
+  .location:before{
+    content: "\f3c5";
 
+  }
+  .email:before{
+    content: "\f0e0";
+
+  }
+  span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+  }
+  p{
+    margin-bottom: 70px;
+  }
+  form{
+    position: relative;
+    padding: 40px 0;
+    background-color: #15141a;
+    margin-bottom: -60px ;
+    input{
+      margin:0 0 20px 5px;
+      background-color: #15141a;
+      height: 44px;
+      border-color: #444348;
+      border-radius: 2px;
+    }
+    textarea{
+      margin:0 5px 20px 0;
+      background-color: #15141a;
+      height: 172px;
+      border-color: #444348;
+      border-radius: 2px;
+    }
+    .btn-primary{
+      margin: 0;
+    }
+  }
 }

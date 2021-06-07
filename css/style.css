@@ -45,8 +45,9 @@
   border: solid 1px #454549;
   font-weight: 700;
   border-radius: 2px;
-  padding: 18px 25px;
-  max-width: 164px; }
+  line-height: 30px;
+  width: 100%;
+  display: block; }
 
 .btn-success {
   color: #008ed6;
@@ -70,8 +71,9 @@
   font-weight: 700;
   background-color: #008ed6;
   border-radius: 2px;
-  padding: 18px 25px;
-  max-width: 164px; }
+  line-height: 30px;
+  width: 100%;
+  display: block; }
 
 .bg-primary {
   background-color: #15141a; }
@@ -215,7 +217,8 @@
       position: relative; }
 
 .section-details-top {
-  padding: 68px 0; }
+  padding: 68px 0;
+  position: relative; }
   .section-details-top .section-subtitle {
     margin-top: 40px; }
   .section-details-top .section-title:before {
@@ -244,7 +247,8 @@
   .section-details-top p {
     margin-bottom: 40px; }
   .section-details-top img {
-    display: block; }
+    display: block;
+    width: 100%; }
   .section-details-top ul li {
     display: flex;
     align-items: center;
@@ -326,8 +330,8 @@
     display: flex;
     align-items: center;
     position: absolute;
-    bottom: 30%;
-    left: 40%; }
+    bottom: -30%;
+    left: 45%; }
     .owl-carousel .owl-dots .owl-dot span {
       display: block;
       border: solid 1px #373033;
@@ -473,5 +477,44 @@
     font-size: 36px;
     position: relative;
     margin-bottom: 68px; }
+  .section-contacts .numbers:before, .section-contacts .location:before, .section-contacts .email:before {
+    content: "\f3cd";
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color: #018ed2; }
+  .section-contacts .location:before {
+    content: "\f3c5"; }
+  .section-contacts .email:before {
+    content: "\f0e0"; }
+  .section-contacts span {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px; }
+  .section-contacts p {
+    margin-bottom: 70px; }
+  .section-contacts form {
+    position: relative;
+    padding: 40px 0;
+    background-color: #15141a;
+    margin-bottom: -60px; }
+    .section-contacts form input {
+      margin: 0 0 20px 5px;
+      background-color: #15141a;
+      height: 44px;
+      border-color: #444348;
+      border-radius: 2px; }
+    .section-contacts form textarea {
+      margin: 0 5px 20px 0;
+      background-color: #15141a;
+      height: 172px;
+      border-color: #444348;
+      border-radius: 2px; }
+    .section-contacts form .btn-primary {
+      margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
